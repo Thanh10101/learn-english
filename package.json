@@ -1,18 +1,22 @@
 {
-  "name": "learn-english",
-  "version": "1.0.0",
-  "description": "app note to learn english",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "english",
-    "learn"
-  ],
-  "author": "Thanh",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.19.2"
-  }
+    "name": "learn-english",
+    "version": "1.0.0",
+    "description": "app note to learn english",
+    "main": "app.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon src/app.js"
+    },
+    "keywords": [
+        "english",
+        "learn"
+    ],
+    "author": "Thanh",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.19.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.1"
+    }
 }
